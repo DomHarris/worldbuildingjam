@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5047722050789648853
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sand
+  m_Shader: {fileID: -6465566751694194690, guid: a11a2cee242b044dfab36c387af3937c, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DetailBumpMap:
+        m_Texture: {fileID: 2800000, guid: 7a24791f93d0f427c856585db5798795, type: 3}
+        m_Scale: {x: 76, y: 76}
+        m_Offset: {x: 0, y: 0}
+    - _GlitterTex:
+        m_Texture: {fileID: 2800000, guid: 488fae27bbd6b44899048b8148877415, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapShallowX:
+        m_Texture: {fileID: 2800000, guid: aea4d5b41cab94e02a94073dc3c5e2b1, type: 3}
+        m_Scale: {x: 5000, y: 5000}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapShallowZ:
+        m_Texture: {fileID: 2800000, guid: aea4d5b41cab94e02a94073dc3c5e2b1, type: 3}
+        m_Scale: {x: 5000, y: 5000}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapSteepX:
+        m_Texture: {fileID: 2800000, guid: c07aa614c1a704693a13629985d2caec, type: 3}
+        m_Scale: {x: 1200, y: 1200}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapSteepZ:
+        m_Texture: {fileID: 2800000, guid: 3a92935157b3342a09af4da61b598e9d, type: 3}
+        m_Scale: {x: 1200, y: 1200}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DetailBumpScale: 0.05
+    - _GlitterMultiplyer: 100
+    - _GlitterRange: 5
+    - _Glitteriness: 4
+    - _Glossiness: 4
+    - _OceanSpecularMultiplyer: 1.25
+    - _OceanSpecularShininess: 0.1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Roughness: 1
+    - _ShallowBumpScale: 0.5
+    - _SpecularMultiplyer: 0.15
+    - _SpecularShininess: 1.5
+    - _SurfaceNormalScale: 0.1
+    m_Colors:
+    - _GlitterColor: {r: 1, g: 0.69803923, b: 0.72156864, a: 1}
+    - _GlitterOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _GlitterTiling: {r: 1000, g: 1000, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 0, b: 0.26783133, a: 1}
+    - _NormalMapShallowST: {r: 0, g: 0, b: 0, a: 0}
+    - _NormalMapSteepST: {r: 0, g: 0, b: 0, a: 0}
+    - _OceanSpecularColor: {r: 3.3183336, g: 1.5294378, b: 0.42332652, a: 1}
+    - _ShallowOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ShallowTiling: {r: 50, g: 50, b: 0, a: 0}
+    - _SpecularColor: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
+    - _SteepOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _SteepTiling: {r: 12, g: 12, b: 0, a: 0}
+  m_BuildTextureStacks: []
