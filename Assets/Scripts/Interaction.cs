@@ -10,7 +10,7 @@ public class Interaction : MonoBehaviour
     [SerializeField] private TextMeshProUGUI text;
     [SerializeField] private Key key = Key.E;
     private List<Interactible> _currentInteractables;
-
+    
     private void Awake()
     {
         _currentInteractables = new List<Interactible>();
@@ -22,6 +22,8 @@ public class Interaction : MonoBehaviour
         if (interactable == null)
             return;
 
+        if (interactable.HasInteracted) return;
+        
         ui.DOFade(1, 0.5f);
         text.text = $"[ press '{key}' to {interactable.Verb} ]";
         _currentInteractables.Add(interactable);
@@ -43,7 +45,7 @@ public class Interaction : MonoBehaviour
             return;
 
         foreach (var interactable in _currentInteractables)
-            if (interactable != null)
+            if (interactable != null && !interactable.HasInteracted)
                 interactable.PickUp();
     }
 }
