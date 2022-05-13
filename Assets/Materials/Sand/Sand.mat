@@ -34,8 +34,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DetailBumpMap:
-        m_Texture: {fileID: 2800000, guid: 7a24791f93d0f427c856585db5798795, type: 3}
-        m_Scale: {x: 76, y: 76}
+        m_Texture: {fileID: 2800000, guid: aea4d5b41cab94e02a94073dc3c5e2b1, type: 3}
+        m_Scale: {x: 38, y: 38}
         m_Offset: {x: 0, y: 0}
     - _GlitterTex:
         m_Texture: {fileID: 2800000, guid: 488fae27bbd6b44899048b8148877415, type: 3}
@@ -55,11 +55,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _NormalMapSteepX:
         m_Texture: {fileID: 2800000, guid: c07aa614c1a704693a13629985d2caec, type: 3}
-        m_Scale: {x: 1200, y: 1200}
+        m_Scale: {x: 300, y: 300}
         m_Offset: {x: 0, y: 0}
     - _NormalMapSteepZ:
         m_Texture: {fileID: 2800000, guid: 3a92935157b3342a09af4da61b598e9d, type: 3}
-        m_Scale: {x: 1200, y: 1200}
+        m_Scale: {x: 300, y: 300}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
@@ -76,23 +76,23 @@ Material:
     m_Ints: []
     m_Floats:
     - _DetailBumpScale: 0.05
-    - _GlitterMultiplyer: 100
-    - _GlitterRange: 5
-    - _Glitteriness: 4
-    - _Glossiness: 4
+    - _GlitterMultiplyer: 1000
+    - _GlitterRange: 1
+    - _Glitteriness: 5
+    - _Glossiness: 1
     - _OceanSpecularMultiplyer: 1.25
     - _OceanSpecularShininess: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Roughness: 1
-    - _ShallowBumpScale: 0.5
+    - _ShallowBumpScale: 2
     - _SpecularMultiplyer: 0.15
     - _SpecularShininess: 1.5
-    - _SurfaceNormalScale: 0.1
+    - _SurfaceNormalScale: 0.391
     m_Colors:
-    - _GlitterColor: {r: 1, g: 0.69803923, b: 0.72156864, a: 1}
+    - _GlitterColor: {r: 2, g: 1.3960785, b: 1.4431373, a: 1}
     - _GlitterOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _GlitterTiling: {r: 1000, g: 1000, b: 0, a: 0}
+    - _GlitterTiling: {r: 100, g: 100, b: 0, a: 0}
     - _MainColor: {r: 1, g: 0, b: 0.26783133, a: 1}
     - _NormalMapShallowST: {r: 0, g: 0, b: 0, a: 0}
     - _NormalMapSteepST: {r: 0, g: 0, b: 0, a: 0}
